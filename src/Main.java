@@ -22,8 +22,8 @@ public class Main {
 //                   arr[j]=temp;
                    System.out.println(arr[i]);
 
-                   int sum=arr[i]*arr[j]*arr[j+3]*arr[j+333];
-                   System.out.println(sum);
+
+
                    arr= Masort(arr,i,j);
 
                }else {
