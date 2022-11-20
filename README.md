@@ -20,11 +20,13 @@
         }
 
 
-
+        //定义两个for循环 {4,2,43,3,2}
        for(int i=0;i< arr.length-1;i++){
+           //内部for循环 i 与j 进行大小判断
            for(int j=i+1;j< arr.length;j++){
                int temp=0;
                if(Maxnum(arr[i],arr[j])){
+                   //进行数据交换 
 //                   temp=arr[i];
 //                   arr[i]=arr[j];
 //                   arr[j]=temp;
